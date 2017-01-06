@@ -14,6 +14,17 @@
 		C6453C731E1F1A990074A130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6453C721E1F1A990074A130 /* Assets.xcassets */; };
 		C6453C761E1F1A990074A130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6453C741E1F1A990074A130 /* LaunchScreen.storyboard */; };
 		C6453C7E1E1F1C990074A130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6453C7D1E1F1C990074A130 /* GoogleService-Info.plist */; };
+		C6453C861E1F272E0074A130 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6453C841E1F272E0074A130 /* AuthService.swift */; };
+		C6453C871E1F272E0074A130 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6453C851E1F272E0074A130 /* DataService.swift */; };
+		C6453C8F1E1F277B0074A130 /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6453C8B1E1F277B0074A130 /* AAPLCameraViewController.m */; };
+		C6453C901E1F277B0074A130 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6453C8C1E1F277B0074A130 /* CameraVC.swift */; };
+		C6453C911E1F277B0074A130 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6453C8D1E1F277B0074A130 /* LoginVC.swift */; };
+		C6453C921E1F277B0074A130 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6453C8E1E1F277B0074A130 /* UsersVC.swift */; };
+		C6453C981E1F27AB0074A130 /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6453C941E1F27AB0074A130 /* AAPLPreviewView.m */; };
+		C6453C991E1F27AB0074A130 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6453C951E1F27AB0074A130 /* RoundTextField.swift */; };
+		C6453C9A1E1F27AB0074A130 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6453C961E1F27AB0074A130 /* RoundedButton.swift */; };
+		C6453C9B1E1F27AB0074A130 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6453C971E1F27AB0074A130 /* UserCell.swift */; };
+		C6453C9D1E1F27F80074A130 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6453C9C1E1F27F80074A130 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +39,21 @@
 		C6453C751E1F1A990074A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6453C771E1F1A990074A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6453C7D1E1F1C990074A130 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6453C841E1F272E0074A130 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C6453C851E1F272E0074A130 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C6453C881E1F27450074A130 /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
+		C6453C891E1F27790074A130 /* twoseconds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twoseconds-Bridging-Header.h"; sourceTree = "<group>"; };
+		C6453C8A1E1F277B0074A130 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
+		C6453C8B1E1F277B0074A130 /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
+		C6453C8C1E1F277B0074A130 /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		C6453C8D1E1F277B0074A130 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C6453C8E1E1F277B0074A130 /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		C6453C931E1F27AB0074A130 /* AAPLPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLPreviewView.h; sourceTree = "<group>"; };
+		C6453C941E1F27AB0074A130 /* AAPLPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLPreviewView.m; sourceTree = "<group>"; };
+		C6453C951E1F27AB0074A130 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		C6453C961E1F27AB0074A130 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		C6453C971E1F27AB0074A130 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		C6453C9C1E1F27F80074A130 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +106,11 @@
 		C6453C6A1E1F1A980074A130 /* twoseconds */ = {
 			isa = PBXGroup;
 			children = (
+				C6453C831E1F26F60074A130 /* Controller */,
+				C6453C821E1F26ED0074A130 /* View */,
+				C6453C811E1F26C60074A130 /* Model */,
+				C6453C801E1F26B60074A130 /* Protocols */,
+				C6453C7F1E1F267C0074A130 /* Services */,
 				C6453C7D1E1F1C990074A130 /* GoogleService-Info.plist */,
 				C6453C6B1E1F1A980074A130 /* AppDelegate.swift */,
 				C6453C6D1E1F1A980074A130 /* ViewController.swift */,
@@ -89,6 +120,56 @@
 				C6453C771E1F1A990074A130 /* Info.plist */,
 			);
 			path = twoseconds;
+			sourceTree = "<group>";
+		};
+		C6453C7F1E1F267C0074A130 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C6453C841E1F272E0074A130 /* AuthService.swift */,
+				C6453C851E1F272E0074A130 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		C6453C801E1F26B60074A130 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C6453C881E1F27450074A130 /* AAPLCameraVCDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		C6453C811E1F26C60074A130 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6453C9C1E1F27F80074A130 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C6453C821E1F26ED0074A130 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6453C931E1F27AB0074A130 /* AAPLPreviewView.h */,
+				C6453C941E1F27AB0074A130 /* AAPLPreviewView.m */,
+				C6453C951E1F27AB0074A130 /* RoundTextField.swift */,
+				C6453C961E1F27AB0074A130 /* RoundedButton.swift */,
+				C6453C971E1F27AB0074A130 /* UserCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C6453C831E1F26F60074A130 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6453C8A1E1F277B0074A130 /* AAPLCameraViewController.h */,
+				C6453C8B1E1F277B0074A130 /* AAPLCameraViewController.m */,
+				C6453C8C1E1F277B0074A130 /* CameraVC.swift */,
+				C6453C8D1E1F277B0074A130 /* LoginVC.swift */,
+				C6453C8E1E1F277B0074A130 /* UsersVC.swift */,
+				C6453C891E1F27790074A130 /* twoseconds-Bridging-Header.h */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +208,7 @@
 					C6453C671E1F1A980074A130 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 32X58CZFYQ;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -216,8 +298,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6453C9D1E1F27F80074A130 /* User.swift in Sources */,
+				C6453C861E1F272E0074A130 /* AuthService.swift in Sources */,
+				C6453C901E1F277B0074A130 /* CameraVC.swift in Sources */,
+				C6453C991E1F27AB0074A130 /* RoundTextField.swift in Sources */,
+				C6453C911E1F277B0074A130 /* LoginVC.swift in Sources */,
+				C6453C921E1F277B0074A130 /* UsersVC.swift in Sources */,
 				C6453C6E1E1F1A980074A130 /* ViewController.swift in Sources */,
+				C6453C9A1E1F27AB0074A130 /* RoundedButton.swift in Sources */,
 				C6453C6C1E1F1A980074A130 /* AppDelegate.swift in Sources */,
+				C6453C9B1E1F27AB0074A130 /* UserCell.swift in Sources */,
+				C6453C871E1F272E0074A130 /* DataService.swift in Sources */,
+				C6453C8F1E1F277B0074A130 /* AAPLCameraViewController.m in Sources */,
+				C6453C981E1F27AB0074A130 /* AAPLPreviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,12 +434,15 @@
 			baseConfigurationReference = 30CC52743E940563F315E26C /* Pods-twoseconds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 32X58CZFYQ;
 				INFOPLIST_FILE = twoseconds/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jtsay.twoseconds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "twoseconds/twoseconds-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -356,12 +452,14 @@
 			baseConfigurationReference = 937225A11B725E149B2C8E55 /* Pods-twoseconds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 32X58CZFYQ;
 				INFOPLIST_FILE = twoseconds/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jtsay.twoseconds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "twoseconds/twoseconds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
