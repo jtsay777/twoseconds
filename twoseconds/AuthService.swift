@@ -19,9 +19,16 @@ class AuthService {
     }
     
     func login(email: String, password: String, onComplete: Completion?) {
+        
+        print("AuthService login: email = \(email), password = \(password)")
+        
         FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, error) in
             
+            print("Check001")
+            
             if error != nil {
+                print("error = \(error.debugDescription)")
+                
                 if let errorCode = FIRAuthErrorCode(rawValue: error!._code) {
                     if errorCode == .errorCodeUserNotFound {
                         FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (user, error) in

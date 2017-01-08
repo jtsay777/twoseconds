@@ -28,7 +28,8 @@ class DataService {
     }
     
     var mainStorageRef: FIRStorageReference {
-        return FIRStorage.storage().reference(forURL: "gs://devchat-9ff73.appspot.com")
+        //return FIRStorage.storage().reference(forURL: "gs://devchat-9ff73.appspot.com")
+        return FIRStorage.storage().reference(forURL: "gs://two-seconds-395d1.appspot.com")
     }
     
     var imagesStorageRef: FIRStorageReference {
